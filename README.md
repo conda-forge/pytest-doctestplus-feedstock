@@ -16,12 +16,15 @@ advanced doctest support and enables the testing of reStructuredText files.
 Current build status
 ====================
 
-All platforms: [![Circle CI](https://circleci.com/gh/conda-forge/pytest-doctestplus-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/pytest-doctestplus-feedstock)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/pytest-doctestplus-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/pytest-doctestplus-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/pytest-doctestplus/badges/version.svg)](https://anaconda.org/conda-forge/pytest-doctestplus)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/pytest-doctestplus/badges/downloads.svg)](https://anaconda.org/conda-forge/pytest-doctestplus)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-pytest--doctestplus-green.svg)](https://anaconda.org/conda-forge/pytest-doctestplus) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/pytest-doctestplus.svg)](https://anaconda.org/conda-forge/pytest-doctestplus) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/pytest-doctestplus.svg)](https://anaconda.org/conda-forge/pytest-doctestplus) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/pytest-doctestplus.svg)](https://anaconda.org/conda-forge/pytest-doctestplus) |
 
 Installing pytest-doctestplus
 =============================
