@@ -34,9 +34,9 @@ test:
     - pytest_doctestplus
 
 about:
-  home: {{ git_url }}
-  license: BSD
-  license_family: BSD 3-Clause
+  home: {{ git_url }}  
+  license_family: BSD
+  license: BSD 3-Clause  
   license_file: LICENSE.rst
   summary: 'Pytest plugin with advanced doctest features'
   description: |
