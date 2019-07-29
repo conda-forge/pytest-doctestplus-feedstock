@@ -14,18 +14,19 @@ source:
 
 build:
   noarch: python
-  number: 0
+  number: 1
   script: python -m pip install --no-deps --ignore-installed .
 
 requirements:
   build:
     - python
     - pip
-    - pytest >=2.8
+    - pytest >=3.0
     - six
   run:
     - python
-    - pytest >=2.8
+    - pytest >=3.0
+    - numpy >=1.10
     - six
 
 test:
