@@ -1,7 +1,7 @@
 {% set name = "pytest-doctestplus" %}
-{% set version = "0.3.0" %}
+{% set version = "0.4.0" %}
 {% set git_url = "https://github.com/astropy/pytest-doctestplus" %}
-{% set sha256 = "4e641bc720661c08ec3afe44a7951660cdff5e187259c433aa66e9ec2d5ccea1" %}
+{% set sha256 = "8872b9c236924af20c39c2813d7f1bde50a1edca7c4aba5a8bfbae3a32360e87" %}
 
 package:
   name: {{ name|lower }}
@@ -14,7 +14,7 @@ source:
 
 build:
   noarch: python
-  number: 1
+  number: 0
   script: python -m pip install --no-deps --ignore-installed .
 
 requirements:
