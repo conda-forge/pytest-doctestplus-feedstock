@@ -1,7 +1,7 @@
 {% set name = "pytest-doctestplus" %}
-{% set version = "0.4.0" %}
+{% set version = "0.6.0" %}
 {% set git_url = "https://github.com/astropy/pytest-doctestplus" %}
-{% set sha256 = "8872b9c236924af20c39c2813d7f1bde50a1edca7c4aba5a8bfbae3a32360e87" %}
+{% set sha256 = "c8b42c5cd5c7c63f60ecf9c9484b5422da338e5b902f30efee37121eac41d5f5" %}
 
 package:
   name: {{ name|lower }}
@@ -15,7 +15,7 @@ source:
 build:
   noarch: python
   number: 0
-  script: python -m pip install --no-deps --ignore-installed .
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
   build:
@@ -34,11 +34,11 @@ test:
     - pytest_doctestplus
 
 about:
-  home: {{ git_url }}  
+  home: {{ git_url }}
   license_family: BSD
-  license: BSD 3-Clause  
+  license: BSD 3-Clause
   license_file: LICENSE.rst
-  summary: 'Pytest plugin with advanced doctest features'
+  summary: Pytest plugin with advanced doctest features
   description: |
     This package contains a plugin for the pytest framework that provides
     advanced doctest support and enables the testing of reStructuredText files.
