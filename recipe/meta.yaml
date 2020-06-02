@@ -1,7 +1,7 @@
 {% set name = "pytest-doctestplus" %}
-{% set version = "0.6.1" %}
+{% set version = "0.7.0" %}
 {% set git_url = "https://github.com/astropy/pytest-doctestplus" %}
-{% set sha256 = "7bcb73b6a41859492c98eb0a9e2c7e93c9681876fd306eadba4a9593a47cc185" %}
+{% set sha256 = "ed440f43e33191f09aed7bbc4f60db3dfb8f295ab33e04c59302af7eda9e29aa" %}
 
 package:
   name: {{ name|lower }}
