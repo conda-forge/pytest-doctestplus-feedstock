@@ -1,5 +1,5 @@
 {% set name = "pytest-doctestplus" %}
-{% set version = "0.7.0" %}
+{% set version = "0.8.0" %}
 {% set git_url = "https://github.com/astropy/pytest-doctestplus" %}
 
 package:
@@ -9,11 +9,11 @@ package:
 source:
   fn: {{ name }}-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: ed440f43e33191f09aed7bbc4f60db3dfb8f295ab33e04c59302af7eda9e29aa
+  sha256: fb083925a17ce636f33997c275f61123e63372c1db11fefac1e991ed25a4ca37
 
 build:
   noarch: python
-  number: 1
+  number: 0
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
