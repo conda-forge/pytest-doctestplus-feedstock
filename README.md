@@ -119,6 +119,6 @@ Feedstock Maintainers
 =====================
 
 * [@astrofrog-conda-forge](https://github.com/astrofrog-conda-forge/)
-* [@drdavella](https://github.com/drdavella/)
+* [@pllim](https://github.com/pllim/)
 * [@mwcraig](https://github.com/mwcraig/)
 
