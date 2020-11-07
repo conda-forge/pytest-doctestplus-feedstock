@@ -41,7 +41,7 @@ about:
   license: BSD-3-Clause
   license_family: BSD
   license_file: LICENSE.rst
-  doc_url: https://github.com/astropy/pytest-doctestplus
+  doc_url: https://pypi.org/project/pytest-doctestplus/
   dev_url: https://github.com/astropy/pytest-doctestplus
 
 extra:
