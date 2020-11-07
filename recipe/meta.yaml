@@ -33,7 +33,7 @@ test:
     - pip
 
 about:
-  home: https://pypi.org/project/pytest-doctestplus
+  home: https://github.com/astropy/pytest-doctestplus
   summary: Pytest plugin with advanced doctest features.
   description: |
     This package contains a plugin for the pytest framework that provides
@@ -41,7 +41,7 @@ about:
   license: BSD-3-Clause
   license_family: BSD
   license_file: LICENSE.rst
-  doc_url: https://astropy.org
+  doc_url: https://github.com/astropy/pytest-doctestplus
   dev_url: https://github.com/astropy/pytest-doctestplus
 
 extra:
