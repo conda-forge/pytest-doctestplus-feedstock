@@ -1,7 +1,7 @@
 About pytest-doctestplus
 ========================
 
-Home: https://pypi.org/project/pytest-doctestplus
+Home: https://github.com/astropy/pytest-doctestplus
 
 Package license: BSD-3-Clause
 
@@ -11,7 +11,7 @@ Summary: Pytest plugin with advanced doctest features.
 
 Development: https://github.com/astropy/pytest-doctestplus
 
-Documentation: https://astropy.org
+Documentation: https://pypi.org/project/pytest-doctestplus/
 
 This package contains a plugin for the pytest framework that provides
 advanced doctest support and enables the testing of reStructuredText files.
