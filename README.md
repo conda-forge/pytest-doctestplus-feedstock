@@ -5,9 +5,13 @@ Home: https://github.com/astropy/pytest-doctestplus
 
 Package license: BSD-3-Clause
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pytest-doctestplus-feedstock/blob/master/LICENSE.txt)
 
-Summary: Pytest plugin with advanced doctest features
+Summary: Pytest plugin with advanced doctest features.
+
+Development: https://github.com/astropy/pytest-doctestplus
+
+Documentation: https://pypi.org/project/pytest-doctestplus/
 
 This package contains a plugin for the pytest framework that provides
 advanced doctest support and enables the testing of reStructuredText files.
@@ -118,7 +122,8 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
+* [@anthchirp](https://github.com/anthchirp/)
 * [@astrofrog-conda-forge](https://github.com/astrofrog-conda-forge/)
-* [@drdavella](https://github.com/drdavella/)
 * [@mwcraig](https://github.com/mwcraig/)
+* [@pllim](https://github.com/pllim/)
 
