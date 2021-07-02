@@ -1,5 +1,5 @@
 {% set name = "pytest-doctestplus" %}
-{% set version = "0.9.0" %}
+{% set version = "0.10.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pytest-doctestplus-{{ version }}.tar.gz
-  sha256: 6fe747418461d7b202824a3486ba8f4fa17a9bd0b1eddc743ba1d6d87f03391a
+  sha256: 74a6e97a6f87cb5383cdc86d44943a37ab94d45ff484f2ddd3b8a1a81be25a03
 
 build:
   number: 0
@@ -17,12 +17,12 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.6
+    - python >=3.7
     - setuptools_scm
   run:
     - pip
     - pytest >=4.6
-    - python >=3.6
+    - python >=3.7
     - setuptools >=30.3
 
 test:
