@@ -1,5 +1,5 @@
 {% set name = "pytest-doctestplus" %}
-{% set version = "0.12.0" %}
+{% set version = "0.12.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pytest-doctestplus-{{ version }}.tar.gz
-  sha256: 2a423bdb808693198b78993fb4738e3e3813d38b3f89e00e28978e5677a76833
+  sha256: 7a979e4be99d9116e07ac066c5f00d45f387677d7d779f3bef30c6ffa8c79181
 
 build:
   number: 0
