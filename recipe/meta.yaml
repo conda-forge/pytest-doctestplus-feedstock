@@ -50,5 +50,6 @@ extra:
   recipe-maintainers:
     - anthchirp
     - astrofrog-conda-forge
+    - bsipocz
     - pllim
     - mwcraig
