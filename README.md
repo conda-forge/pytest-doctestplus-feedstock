@@ -1,15 +1,15 @@
-About pytest-doctestplus
-========================
-
-Home: https://github.com/astropy/pytest-doctestplus
-
-Package license: BSD-3-Clause
+About pytest-doctestplus-feedstock
+==================================
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pytest-doctestplus-feedstock/blob/main/LICENSE.txt)
 
+Home: https://github.com/scientific-python/pytest-doctestplus
+
+Package license: BSD-3-Clause
+
 Summary: Pytest plugin with advanced doctest features.
 
-Development: https://github.com/astropy/pytest-doctestplus
+Development: https://github.com/scientific-python/pytest-doctestplus
 
 Documentation: https://pypi.org/project/pytest-doctestplus/
 
