@@ -153,6 +153,7 @@ Feedstock Maintainers
 
 * [@anthchirp](https://github.com/anthchirp/)
 * [@astrofrog-conda-forge](https://github.com/astrofrog-conda-forge/)
+* [@bsipocz](https://github.com/bsipocz/)
 * [@mwcraig](https://github.com/mwcraig/)
 * [@pllim](https://github.com/pllim/)
 
