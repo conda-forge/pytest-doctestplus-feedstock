@@ -17,13 +17,13 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.7
+    - python >=3.8
     - setuptools_scm
   run:
     - pip
     - pytest >=4.6
     - packaging >=17.0
-    - python >=3.7
+    - python >=3.8
     - setuptools >=30.3
 
 test:
