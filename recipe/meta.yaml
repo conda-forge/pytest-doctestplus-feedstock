@@ -21,7 +21,7 @@ requirements:
     - setuptools_scm
   run:
     - pip
-    - pytest >=4.6
+    - pytest >=7.0
     - packaging >=17.0
     - python >={{ python_min }}
     - setuptools >=30.3
